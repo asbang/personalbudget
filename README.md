@@ -1,3 +1,26 @@
+# Personal Budget App - Ashley Bang
+
+# Description:
+A full stack application using mysql, express, react, and node to provide budget planning functionalities and visualizations for the user to reference when calculating expenditures.
+Fully functional code that allows users to sign up or login, authenticating and authorizing them to show a private page with all of the budgets on a dashboard. Users are able
+to refresh their token every time it's about to expire via a popup box to continue their usage of the site.
+
+# What I used and why:
+The live feed of the website, found at https://personal-budget-1ard.onrender.com/ was deployed on Render with connections to the corresponding web service api.
+Render offers free services to deploy both static sites and web services which was the main reason why it was used.
+The decision to use mysql with express, react, and node instead of the more common MERN techstack was simply because I'm more familiar and comfortable with mysql as a database than I am with MongoDB.
+
+# Limitations and future implementations:
+When rendering and deploying the full application on Render, a lot of the communication was lost between the server and client sides of the code and limiting the functionalities
+that were fully functional before it was uploaded. Making changes to these connections after everything was already implemented proved to be a challenge and understanding the importance
+of making proper use of environment variables, ports, baseurls, and dependencies in the initial stages of development would've greatly prevented many issues. Strictly working locally
+without the leniency/adaptability of eventually deploying the site was bad practice and I will be establishing this in the first stages going forward. 
+
+The application itself lacks more meaningful substance in the information it relays. I spent a lot of time trying to implement more interactive charts with better visualizations of the configured 
+budgets and expenses in comparing the two but fell short and was unable to properly display them, sticking to more simpler charts instead. 
+Also including a timeline and pattern of spending would increase the value of the application as well as adding additional keys and connections within the database itself.
+
+# Default Documentation from React:
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
